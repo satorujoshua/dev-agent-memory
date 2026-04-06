@@ -1,0 +1,10 @@
+[project]
+name = "agentmemory"
+version = "0.1.0"
+description = "A simple local-first memory tool for devs and AI agents"
+readme = "agent_memory_github.md"
+requires-python = ">=3.8"
+dependencies = ["requests"]
+
+[project.scripts]
+agent-memory = "agent_memory.main:main"
